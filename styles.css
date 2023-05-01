@@ -1,0 +1,14 @@
+.relleno{
+    background-color: #1A1C3A;
+}
+.fondo{
+/*background-color:rgba(218, 230, 229, 1);*/
+background-color: #1A1C3A;
+}
+
+.fondoProductos{
+    background-color: #CE850C;
+}
+.fuenteTitulo{
+    font: 400 26px/40px Roboto,Helvetica Neue,sans-serif;
+}
