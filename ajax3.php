@@ -10,23 +10,26 @@ $result = mysqli_query($cn, $query);
 if (!$result) {
   die('Consulta fallida');
 }
-$json = array();
 while ($fila = mysqli_fetch_array($result)) {
-  
-  $json[] = array(
-    'id' => $fila['id'],
-    'nombre' => $fila['nombre'],
-    'rutaimagen' => $fila['rutaImagen'],
-    'tipo' => $fila['tipo']
-  );
+    
+    $queryTallas = "SELECT * FROM productos_almacen_tamanos WHERE idProducto =". $fila['id'];
+    $resultadoTallas = mysqli_query($cn, $queryTallas);
+    
+    while ($filaTallas = mysqli_fetch_array($resultadoTallas)){
+        $filaTallas['tamano'];
+    }
+    
+    
+
+
+
 }
 
-$jsonString = json_encode($json);
+/*$jsonString = json_encode($json);
 echo $jsonString;
-
+*/
 
 
 
 
 ?>
-
