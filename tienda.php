@@ -25,12 +25,9 @@
           </div>
           
       </div>
-      <div class="row">
-        <div class= "col-3 bg-light">
-          <p>prueba</p>
-        
-          
-        </div>
+      
+      <div id="productos">
+
 
       </div>
 
