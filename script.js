@@ -14,9 +14,9 @@ const obtenerDatos = async () => {
         seccion += '<div class="row">';
       }
       seccion += `
-        <div class="col-3 mt-4"> 
+        <div class="col-lg-3 col-md-4 col-12 mt-5 d-flex justify-content-center"> 
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="tienda/${producto.rutaimagen}" alt="Card image cap">
+            <div class="d-flex justify-content-center mt-3"><img class="w-75" src="tienda/${producto.rutaimagen}" alt="Card image cap"></div>
             <div class="card-body">
               <h5 class="card-title">${producto.nombre}</h5>
               <p class="card-text">${producto.precio}</p>
