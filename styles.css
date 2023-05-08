@@ -12,3 +12,58 @@ background-color: #1A1C3A;
 .fuenteTitulo{
     font: 400 26px/40px Roboto,Helvetica Neue,sans-serif;
 }
+
+#footer{
+    background-color: #002E5F;
+}
+.fondoSidebar{
+    background-color: #1B2E4F;
+}
+
+#sidebar ul li a{
+  padding-top: 50px;
+  cursor: pointer;
+  color: rgba(500, 500, 500, .9);
+ text-align: center;
+ padding:10px;
+ list-style: none;
+}
+
+#sidebar ul li{
+cursor: pointer;
+color: rgba(500, 500, 500, .9);
+ text-align: center;
+ padding: 15px 10px;
+ border-bottom: 1px solid rgba(100, 100, 100, .3);
+ list-style: none;
+ font-weight: bold;
+}
+#sidebar ul{
+    padding: 0;
+}
+
+#sidebar li:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+   
+}
+#sidebar{
+    padding: 0;
+}
+
+.logoUady{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        /*padding-left:30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;*/
+    }
+
+    .fixed{
+        position: fixed;
+
+    }

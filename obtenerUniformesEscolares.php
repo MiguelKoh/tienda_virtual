@@ -21,6 +21,7 @@ while ($filaProductos = mysqli_fetch_array($result)) {
     
     $resultadoTamanos = mysqli_query($cn, $consultaTamanos);
 
+    if ($resultadoTamanos && (mysqli_num_rows($resultadoTamanos) > 0)) {
         while ($filaTamanos = mysqli_fetch_assoc($resultadoTamanos)){
         
             if (!in_array($filaTamanos['precio'], $precios)) {
@@ -45,6 +46,10 @@ $json[] = array(
             'tallas' => $tamanosLista
         );
         
+
+
+    }//fin del if
+
     }//fin de while
 
 $jsonString = json_encode($json);
