@@ -52,18 +52,34 @@ color: rgba(500, 500, 500, .9);
     padding: 0;
 }
 
-.logoUady{
+
+    @media (min-width: 992px) { 
+    
+.logoUady {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 75%;
+        max-width: 75%;
         /*padding-left:30px;
         padding-right: 30px;
         padding-top: 20px;
         padding-bottom: 20px;*/
     }
 
-    .fixed{
+
+
+
+
+}
+
+
+@media (min-width: 1200px) { 
+.fixed{
         position: fixed;
 
     }
+
+
+
+}

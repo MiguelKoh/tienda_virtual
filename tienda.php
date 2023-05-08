@@ -11,7 +11,7 @@
     <title>Tienda virtual</title>
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon_uady.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-************" crossorigin="anonymous" />
-
+    
   </head>
   <body class="fondo">
   
@@ -23,12 +23,12 @@
     <div class="row">
       
 
-      <div class="toggle-btn col-lg-2 col-sm-12 fondoSidebar" id="sidebar">
+      <div class="col-lg-2 col-md-2 col-sm-12 fondoSidebar" id="sidebar">
        
 
        <!--fixed --><div class="fixed">
        <div class="w-100 d-flex justify-content-center py-3">
-       <img src="imagenes/logo-uady-blanco.png" alt="Mountain View" class="logoUady">
+       <img src="imagenes/logo-uady-blanco.png" alt="Mountain View" class="logoUady d-none d-xl-block d-lg-block d-md-block img-fluid">
       </div>
       <ul>
       
@@ -38,7 +38,7 @@
                 <div>
                  
                   <div>
-                    <span><i class="fa-sharp fa-solid fa-cart-shopping"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
                     <span>Mi carrito</span>
                   </div>  
                   
@@ -61,7 +61,7 @@
 </div>  <!--fixed -->
       </div>
       
-    <div class="col-lg-10 col-sm-12">
+    <div class="col-lg-10 col-md-10 col-sm-12">
         
          <div class="row">
             <div class="col-12 px-0"> 
