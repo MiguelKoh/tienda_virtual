@@ -32,8 +32,8 @@
       </div>
       <ul>
       
-        <li>Escolares</li>
-        <li>Deportivos</li>
+        <li id= "escolares">Escolares</li>
+        <li id="deportivos">Deportivos</li>
         <li>
                 <div>
                  
@@ -65,7 +65,7 @@
         
          <div class="row">
             <div class="col-12 px-0"> 
-                <img src="imagenes/banner.png" class="img-fluid" width="100%">
+                <img src="imagenes/bannerV3.png" class="img-fluid" width="100%">
             </div>
         
         </div>
@@ -74,7 +74,7 @@
 
         <div class="row fondo">
           <div class="col-12 d-flex justify-content-center align-items-center fondoProductos">
-              <h4 class="text-white my-2 fuenteTitulo">Productos</h4>
+              <h4 class="text-white my-2 fuenteTitulo" id="titulo">Productos Escolares</h4>
            
           </div>
           
