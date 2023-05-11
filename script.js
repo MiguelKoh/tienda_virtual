@@ -66,3 +66,12 @@ listaDeportivos.addEventListener('click',()=>{
   cambiarTitulo("Productos Deportivos")
   imprimirProductos(rutaUniformesDeportivos)
  })
+
+bontonSidebar = document.getElementById("btn-sidebar");
+
+bontonSidebar.addEventListener('click', ()=>{
+  
+  document.getElementById('sidebar').classList.toggle('active');
+
+    
+});

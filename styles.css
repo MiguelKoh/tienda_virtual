@@ -1,3 +1,26 @@
+
+
+#sidebar.active{
+  left:-243px;
+}
+
+
+
+#btn-sidebar{
+cursor: pointer;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+/*width: 2rem;*/
+padding: .5rem 1rem;
+border: 1px solid white;
+}
+#btn-sidebar:hover{
+ background: rgba(255, 255, 255, 0.2);
+}
+
+
 .relleno{
     background-color: #1A1C3A;
 }
@@ -50,6 +73,9 @@ color: rgba(500, 500, 500, .9);
 }
 #sidebar{
     padding: 0;
+    left: 0px;
+    transition: all 500ms linear;
+
 }
 
 
@@ -59,9 +85,9 @@ color: rgba(500, 500, 500, .9);
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 75%;
-        max-width: 75%;
-        /*padding-left:30px;
+        width: 100%;
+        /*max-width: 75%;
+        padding-left:30px;
         padding-right: 30px;
         padding-top: 20px;
         padding-bottom: 20px;*/
@@ -77,6 +103,7 @@ color: rgba(500, 500, 500, .9);
 @media (min-width: 1200px) { 
 .fixed{
         position: fixed;
+        width: 243px;
 
     }
 

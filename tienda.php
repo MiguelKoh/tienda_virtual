@@ -27,10 +27,21 @@
        
 
        <!--fixed --><div class="fixed">
-       <div class="w-100 d-flex justify-content-center py-3">
-       <img src="imagenes/logo-uady-blanco.png" alt="Mountain View" class="logoUady d-none d-xl-block d-lg-block d-md-block img-fluid">
+       <div class="row my-5">
+        <div class="col-4 d-flex justify-content-center align-items-center px-0 ">
+       <div id="btn-sidebar">
+        <span class="text-white">&#9776;</span>
       </div>
-      <ul>
+     </div>
+      <div class="col-8 px-0">
+       <img src="imagenes/logo-uady-blanco.png" alt="Mountain View" class="d-none d-xl-block d-lg-block d-md-block img-fluid w-75">
+       </div>
+      </div>
+      
+      
+      
+      
+      <ul class="mt-5">
       
         <li id= "escolares">Escolares</li>
         <li id="deportivos">Deportivos</li>
@@ -100,7 +111,7 @@
 </div>  
 
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script src="script.js"></script>
     
   </body>
