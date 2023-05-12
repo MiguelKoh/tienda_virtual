@@ -41,7 +41,7 @@
       
       
       
-      <ul class="mt-5">
+      <ul class="">
       
         <li id= "escolares">Escolares</li>
         <li id="deportivos">Deportivos</li>
@@ -72,7 +72,7 @@
 </div>  <!--fixed -->
       </div>
       
-    <div class="col-lg-10 col-md-10 col-sm-12">
+    <div class="col-lg-10 col-md-10 col-sm-12" id="contenido">
         
          <div class="row">
             <div class="col-12 px-0"> 

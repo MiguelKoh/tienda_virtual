@@ -1,7 +1,19 @@
+#contenido{
+transition: margin-left 1s ease-in-out;
+}
+
+#sidebar{
+    padding: 0;
+    /*left: 0px;*/
+    
+    /*transition: width 1s ease-in-out;*/
+
+}
 
 
 #sidebar.active{
   left:-243px;
+  transition: all 500ms linear;
 }
 
 
@@ -71,12 +83,7 @@ color: rgba(500, 500, 500, .9);
     background: rgba(255, 255, 255, 0.2);
    
 }
-#sidebar{
-    padding: 0;
-    left: 0px;
-    transition: all 500ms linear;
 
-}
 
 
     @media (min-width: 992px) { 
